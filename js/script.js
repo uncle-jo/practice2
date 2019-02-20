@@ -3,6 +3,7 @@ $('.slider').slick({
 });
 
 // castom dropdown
+
 $('select').each(function(){
 	$(this).siblings('p').text( $(this).children('option:selected').text() );
 });
@@ -28,6 +29,7 @@ for(i = 0; i < acc.length; i++) {
 }
 
 // Page product.html
+
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
@@ -41,5 +43,3 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " act";
 }
-
-// Input phone mask
